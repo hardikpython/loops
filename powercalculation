@@ -1,0 +1,13 @@
+# Function to calculate powers of a number from 1 to n using a for loop
+def calculate_powers(base, n):
+    # Loop from 1 to n (inclusive)
+    for i in range(1, n+1):
+        result = base ** i  # Calculate base raised to the power i
+        print(f"{base} raised to the power {i} is: {result}")
+
+# Main function to get user input and call the calculation function
+def main():
+    print("Welcome to the Power Calculation Program!")
+    
+    # Get the base number and how many powers to calculate from the user
+    
